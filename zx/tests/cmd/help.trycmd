@@ -2,7 +2,7 @@
 $ zx --help
 Zip eXtract: Unpack any archive
 
-Usage: zx [OPTIONS] <ARCHIVE> [OUT_DIR]
+Usage: zx[..] [OPTIONS] <ARCHIVE> [OUT_DIR]
 
 Arguments:
   <ARCHIVE>  any kind of archive
