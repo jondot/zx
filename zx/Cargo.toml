@@ -3,7 +3,7 @@ name = "zx"
 version = "1.0.0"
 edition = "2021"
 
-description = "Make extracting archive plain and simple"
+description = "Zip eXtract: Unpack any archive"
 authors = ["Dotan Nahum <dotan@rng0.io>"]
 documentation = "https://docs.rs/zx/"
 repository = "https://github.com/jondot/zx"
@@ -44,7 +44,7 @@ anyhow = "1"
 console = "^0.15.0"
 regex = "*"
 
-decompress = { version = "*", path = "../../decompress/decompress" }
+decompress = "0.3.0"
 tracing = "^0.1.34"
 tracing-tree = { version = "0.2.1" }
 tracing-subscriber = { version = "^0.3.11", features = ["env-filter"] }
