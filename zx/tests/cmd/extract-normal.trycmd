@@ -1,0 +1,9 @@
+```console
+$ zx folders.zip out
+out/folder-1/ex.sh
+out/folder-1/sub.txt
+out/root.txt
+-------------------
+extracted 3 file(s)
+
+```

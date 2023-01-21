@@ -1,0 +1,7 @@
+```console
+$ zx --strip 1 --filter sub folders.zip out
+out/sub.txt
+-------------------
+extracted 1 file(s)
+
+```

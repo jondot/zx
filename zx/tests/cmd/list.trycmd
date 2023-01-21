@@ -1,0 +1,8 @@
+```console
+$ zx --list folders.zip
+folder-1/
+folder-1/ex.sh
+folder-1/sub.txt
+root.txt
+
+```

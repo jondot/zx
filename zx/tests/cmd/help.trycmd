@@ -1,0 +1,19 @@
+```console
+$ zx --help
+Zip eXtract: Unpack any archive
+
+Usage: zx [OPTIONS] <ARCHIVE> [OUT_DIR]
+
+Arguments:
+  <ARCHIVE>  any kind of archive
+  [OUT_DIR]  where to output extracted content
+
+Options:
+  -s, --strip <NUM>     strip N number of components from the path of extracted files [default: 0]
+  -f, --filter <REGEX>  only matching files will be extracted
+  -l, --list            list files in archive (don't extract)
+      --verbose         show verbose output
+  -h, --help            Print help information
+  -V, --version         Print version information
+
+```
