@@ -1,16 +1,16 @@
 targets:
   - platform: win32
     arch: x64
-    url_template: https://github.com/jondot/zx/releases/download/v0.6.0/zx-x86_64-windows.zip
+    url_template: https://github.com/jondot/zx/releases/download/v__VERSION__/zx-x86_64-windows.zip
   - platform: linux
     arch: x64
-    url_template: https://github.com/jondot/zx/releases/download/v0.6.0/zx-x86_64-linux.tar.xz
+    url_template: https://github.com/jondot/zx/releases/download/v__VERSION__/zx-x86_64-linux.tar.xz
   - platform: darwin
     arch: x64
-    url_template: https://github.com/jondot/zx/releases/download/v0.6.0/zx-x86_64-macos.tar.xz
+    url_template: https://github.com/jondot/zx/releases/download/v__VERSION__/zx-x86_64-macos.tar.xz
   - platform: darwin
     arch: arm64
-    url_template: https://github.com/jondot/zx/releases/download/v0.6.0/zx-aarch64-macos.tar.xz
+    url_template: https://github.com/jondot/zx/releases/download/v__VERSION__/zx-aarch64-macos.tar.xz
 brew:
   name: zx 
   publish: true
